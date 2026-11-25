@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
                         // ภาพโปรไฟล์ใช้ไฟล์ภาพจากในโปรเจค
                         const CircleAvatar(
                           radius: 36,
-                          backgroundImage: AssetImage('assets/est.jpg'),
+                          backgroundImage: AssetImage('assets/profile.jpg'),
                         ),
                         const SizedBox(width: 24),
                         Expanded(
@@ -98,7 +98,7 @@ class HomePage extends StatelessWidget {
                     ),
                     const SizedBox(height: 2),
                     const Text(
-                      'นักศึกษาสาขาเทคโนโลยีสารสนเทศ\nคลอไฟล์นการเขียน Flutter 💙',
+                      'นักศึกษาสาขาเทคโนโลยีสารสนเทศ\nชอบเรียนวิชาสร้างแมพ roblox 💙',
                       style: TextStyle(fontSize: 12, color: Colors.black87),
                     ),
                     const SizedBox(height: 12),
